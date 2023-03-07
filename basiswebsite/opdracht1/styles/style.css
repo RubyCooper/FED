@@ -70,9 +70,7 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-/* div{
-	width: 50%;
-} */
+
 
 h1 {
 	background-color: var(--color-package);
@@ -363,13 +361,10 @@ h1 span:nth-of-type(1) {
 		top: 3em;
 		width:3em;
 		height: 3em;
-		/* display: block; */
-		/* justify-content: center;+ */
 	
 		animation: slide-rotate-fall 2.3s linear forwards;
 	
 		z-index: 0;
-		/* position: relative; */
 		
 		transform-style: preserve-3d;
 		transform-origin: right bottom;
@@ -628,14 +623,5 @@ h1 span:nth-of-type(1) {
 		  
 		}
 	}
-
-
-
-
-
-
-
-
-
 
   }
