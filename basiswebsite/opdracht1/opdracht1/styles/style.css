@@ -1,0 +1,641 @@
+/* CSS Document */
+
+/*********/
+/* FONTS */
+/*********/
+@font-face {
+	font-family: 'Amazon';
+	src: url('../fonts/Amazonfont-Regular.ttf');
+			
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+
+
+
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button:not[disabled], summary {
+	cursor: pointer;
+}
+
+
+
+ 
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#F0CDA2;
+	--color-package: #b78f76;
+	--color-detailpackage: #5b402f;
+	--color-arrowletters: #F09E37;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text: white;
+		--color-background: black;
+	}
+}
+
+
+*{
+	margin: 0;
+}
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+body {
+  	font-family: Amazon, sans-serif;
+  	color: var(--color-text);
+  	background-color: var(--color-background);
+	height: 100vh;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/* div{
+	width: 50%;
+} */
+
+h1 {
+	background-color: var(--color-package);
+	width: 5em;
+	height: 5em;
+
+	animation: slide-rotate-fall 2.3s linear forwards;
+
+	z-index: 0;
+	position: relative;
+	
+	transform-style: preserve-3d;
+	transform-origin: right bottom;
+
+	background-image: 
+		linear-gradient(var(--color-detailpackage), var(--color-detailpackage)),
+		linear-gradient(var(--color-detailpackage), var(--color-detailpackage)),
+		linear-gradient(var(--color-detailpackage), var(--color-detailpackage));
+
+	background-size:
+		1.5em 0.6em,
+		1.5em 0.6em,
+		1.5em 1.5em;
+
+	background-repeat: no-repeat;
+	background-position:
+		3em 3.2em,
+		3em 4em,
+		50% 0%;
+}
+	
+
+  
+  @keyframes slide-rotate-fall {
+	0% {
+		transform: translateX(-200%) rotate(0);
+		transition: ease-in;
+	}
+	30% {
+		transform: translateX(30%);
+	}
+
+	80% {
+		transform: translateX(30%) rotate(90deg);
+		transition: ease-in;
+	}
+	100% {
+		transform: translateX(30%) rotate(90deg);
+	}
+}
+
+
+h1::before {
+	content: "";
+	height: .2em;
+	width: 2.5em;
+	background-color: var(--color-package);
+	position: absolute;
+
+	left: 0.1em ;
+	animation: open-box-left 0.5s forwards;
+	animation-delay: 1.5s;
+
+	transform-origin: left;
+
+	z-index: 10;
+
+	
+}
+
+@keyframes open-box-left {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(-90deg);
+	}
+}
+
+h1::after {
+	content: "";
+	height: .2em;
+	width: 2.5em;
+	background-color:  var(--color-package);
+	position: absolute;
+
+	right: 0.1em ;
+	transform-origin: right;
+	animation: open-box-right 0.5s forwards;
+	animation-delay: 1.5s;
+
+	z-index: 10;
+
+}
+  
+  @keyframes open-box-right {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(90deg);
+	}
+}
+
+
+
+h1 span {
+	position: absolute;
+ 
+	transform: translateZ(-1em);
+	height: 100px;
+	width: 50px;
+}
+
+
+
+
+
+h1 span:nth-of-type(1) {
+	animation: fall-out-1 1s linear forwards;
+	animation-delay: 3s;
+	font-size: 4em;
+	rotate: -90deg;
+
+	
+  }
+  
+  @keyframes fall-out-1 {
+	50% {
+		transform: translate(0.7em, 0.8em) rotate(0.5turn);
+		
+	}
+	
+	100% {
+	  	transform: translate(1.4em, 0.8em) rotate(1turn);
+		
+	}
+  }
+
+  
+
+
+
+  h1 span:nth-of-type(2) {
+	animation: fall-out-2 1.2s linear forwards;
+	animation-delay: 2.7s;
+	font-size: 4em;
+	rotate: -90deg;
+  }
+  
+  @keyframes fall-out-2 {
+	
+	50%{
+		transform: translate(0.8em, 0.8em) rotate(0.5turn);
+	}
+
+	100% {
+	  transform: translate(1.77em, 0.8em) rotate(1turn);
+	}
+  }
+
+
+
+  h1 span:nth-of-type(3) {
+	animation: fall-out-3 1.5s linear forwards;
+	animation-delay: 2.4s;
+	font-size: 4em;
+	rotate: -90deg;
+  }
+  
+  @keyframes fall-out-3 {
+	
+
+	50%{
+		transform: translate(1.13em, 0.8em) rotate(0.5turn);
+	}
+
+	100% {
+		transform: translate(2.27em, 0.8em) rotate(1turn);
+	}
+  }
+
+
+
+  h1 span:nth-of-type(4) {
+	animation: fall-out-4 1.6s linear forwards;
+	animation-delay: 2.2s;
+	
+	font-size: 4em;
+	scale: 0.99;
+	rotate: -90deg;
+  }
+  
+  @keyframes fall-out-4 {
+	
+	50%{
+		transform: translate(1.33em, 0.815em) rotate(0.5turn);
+	}
+
+	100% {
+		transform: translate(2.66em, 0.815em) rotate(1turn);
+	}
+  }
+
+
+  h1 span:nth-of-type(5) {
+	animation: fall-out-5 1.8s linear forwards;
+	animation-delay: 1.9s;
+	font-size: 4em;
+	rotate: -90deg;
+  }
+  
+  @keyframes fall-out-5 {
+
+	50%{
+		transform: translate(1.5em, 0.8em) rotate(0.5turn);
+	}
+
+	100% {
+		transform: translate(2.95em, 0.8em) rotate(1turn);
+	}
+  }
+
+
+  h1 span:nth-of-type(6) {
+	animation: fall-out-6 2s linear forwards ;
+	animation-delay: 1.5s;
+	font-size: 4em;
+	rotate: -90deg;
+  }
+  
+  @keyframes fall-out-6 {
+	
+	50% {
+		transform: translate(1.5em, 0.8em) rotate(0.5turn);
+	}
+
+	100% {
+		transform: translate(3.3em, 0.8em) rotate(1turn);
+	}
+  }
+
+
+
+
+
+
+  h1 span:nth-of-type(7) {
+	animation: fall-out-7 0.7s forwards ease-out;
+	animation-delay: 4.5s;
+	
+	transform: perspective(2em) rotateX(-0.25turn);
+
+	font-size: 5.4em;
+	rotate: -90deg;
+	color: var(--color-arrowletters);
+
+	left: 0.74em;
+	top: -1.28em;
+  }
+  
+  @keyframes fall-out-7 {
+
+	100% {
+		transform: perspective(20em) rotateX(0.025turn);
+
+	  
+	}
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+	body{
+		overflow-y: hidden;
+		overflow-x: hidden; 
+		justify-content: flex-start;
+		width: 50%;
+	}
+	
+	
+
+	h1 {
+		background-color: var(--color-package);
+		top: 3em;
+		width:3em;
+		height: 3em;
+		/* display: block; */
+		/* justify-content: center;+ */
+	
+		animation: slide-rotate-fall 2.3s linear forwards;
+	
+		z-index: 0;
+		/* position: relative; */
+		
+		transform-style: preserve-3d;
+		transform-origin: right bottom;
+	
+		background-image: 
+			linear-gradient(var(--color-detailpackage), var(--color-detailpackage)),
+			linear-gradient(var(--color-detailpackage), var(--color-detailpackage)),
+			linear-gradient(var(--color-detailpackage), var(--color-detailpackage));
+	
+		background-size:
+			.9em 0.3em,
+			.9em 0.3em,
+			.9em .9em;
+	
+		background-repeat: no-repeat;
+		background-position:
+			1.8em 2.4em,
+			1.8em 2em,
+			50% 0%;
+	}
+		
+	
+	  
+	  @keyframes slide-rotate-fall {
+		0% {
+			transform: translateX(-100%) rotate(0);
+			transition: ease-in;
+		}
+		30% {
+			transform: translateX(30%);
+		}
+	
+		80% {
+			transform: translateX(30%) rotate(180deg);
+			transition: ease-in;
+		}
+		100% {
+			transform: translateX(30%) rotate(180deg);
+		}
+	}
+
+	h1::before {
+		content: "";
+		height: .12em;
+		width: 1.5em;
+		background-color: var(--color-package);
+		position: absolute;
+	
+		left: 0.05em ;
+		animation: open-box-left 0.5s forwards;
+		animation-delay: 1.5s;
+	
+		transform-origin: left;
+	
+		z-index: 10;
+	
+		
+	}
+	
+	@keyframes open-box-left {
+		0% {
+			transform: rotate(0);
+		}
+		100% {
+			transform: rotate(-90deg);
+		}
+	}
+	
+	h1::after {
+		content: "";
+		height: .12em;
+		width: 1.5em;
+		background-color:  var(--color-package);
+		position: absolute;
+	
+		right: 0.05em ;
+		transform-origin: right;
+		animation: open-box-right 0.5s forwards;
+		animation-delay: 1.5s;
+	
+		z-index: 10;
+	
+	}
+	  
+	  @keyframes open-box-right {
+		0% {
+			transform: rotate(0);
+		}
+		100% {
+			transform: rotate(90deg);
+		}
+	}
+
+
+	h1 span {
+		position: absolute;
+	 
+		transform: translateZ(-1em);
+		height: 100px;
+		width: 50px;
+		
+	}
+	
+	
+	
+	
+	
+	h1 span:nth-of-type(1) {
+		animation: fall-out-1 1s linear forwards;
+		animation-delay: 1.5s;
+		font-size: 2.4em;
+		rotate: -180deg;
+	}
+	  
+	@keyframes fall-out-1 {
+		50% {
+			transform: translate(-1.4em, 2em) rotate(0.5turn);
+			
+		}
+		
+		100% {
+			  transform: translate(-1.4em, 4em) rotate(1turn);
+			
+		}
+	}
+	
+	
+	
+	
+	
+	h1 span:nth-of-type(2) {
+		animation: fall-out-2 1.2s linear forwards;
+		animation-delay: 1.9s;
+		font-size: 2.4em;
+		rotate: -180deg;	 
+	}
+	  
+	@keyframes fall-out-2 {
+		
+		50%{
+			transform: translate(-1.05em, 2em) rotate(0.5turn);
+		}
+	
+		100% {
+		  transform: translate(-1.05em, 4em) rotate(1turn);
+		}
+	}
+	
+	
+	
+	h1 span:nth-of-type(3) {
+		animation: fall-out-3 1.5s linear forwards;
+		animation-delay: 2.2s;
+		font-size: 2.4em;
+		rotate: -180deg;
+	}
+	  
+	@keyframes fall-out-3 {
+		
+		50%{
+			transform: translate(-0.55em, 2em) rotate(0.5turn);
+		}
+	
+		100% {
+			transform: translate(-0.55em, 4em) rotate(1turn);
+		}
+	}
+	
+	
+	
+	h1 span:nth-of-type(4) {
+		animation: fall-out-4 1.6s linear forwards;
+		animation-delay: 2.4s;
+		
+		font-size: 2.4em;
+		scale: 0.99;
+		rotate: -180deg;
+	}
+	  
+	@keyframes fall-out-4 {
+		
+		50%{
+			transform: translate(-0.6em, 2.05em) rotate(0.5turn);
+		}
+	
+		100% {
+			transform: translate(-0.21em, 4.05em) rotate(1turn);
+		}
+	}
+	
+	
+	h1 span:nth-of-type(5) {
+		animation: fall-out-5 1.8s linear forwards;
+		animation-delay: 2.7s;
+		font-size: 2.4em;
+		rotate: -180deg;
+	}
+	  
+	@keyframes fall-out-5 {
+	
+		50%{
+			transform: translate(-0.5em, 2em) rotate(0.5turn);
+		}
+	
+		100% {
+			transform: translate(0.1em, 4em) rotate(1turn);
+		}
+	}
+	
+	
+	h1 span:nth-of-type(6) {
+		animation: fall-out-6 2s linear forwards ;
+		animation-delay: 3s;
+		font-size: 2.4em;
+		rotate: -180deg;
+	}
+	  
+	@keyframes fall-out-6 {
+		
+		
+		50% {
+			transform: translate(-0.3em, 2em) rotate(0.5turn);
+		}
+	
+		100% {
+			transform: translate(.45em, 4em) rotate(1turn);
+		}
+	}
+	
+	
+	
+	
+	
+	
+	h1 span:nth-of-type(7) {
+		animation: fall-out-7 0.7s forwards ease-out;
+		animation-delay: 5s;
+		
+		transform: perspective(2em) rotateX(-0.25turn);
+	
+		font-size: 3.24em;
+		rotate: 180deg;
+		color: var(--color-arrowletters);
+	
+		left: 0.82em;
+		top: -2.17em;
+
+		transform-origin: top;
+	}
+	  
+	@keyframes fall-out-7 {
+	
+		100% {
+			transform: perspective(2em) rotateX(0.025turn);
+	
+		  
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+  }
