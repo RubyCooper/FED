@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Ruby Heiting
 
 **De opdrachten:** [opdracht 1](opdracht1/index.html) en [opdracht 2](opdracht2/index.html)
 
@@ -23,7 +23,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Opdracht 1 plan
 
 <details open>
-  <summary>uitwerken na schetsen idee (voor week 2)</summary>
+  Voor deze opdracht heb ik ervoor gekozen om het Amazon logo te animeren. Het lijkt mij leuk om een pakketje het scherm in te laten "sliden", vervolgens laten afremmen, omvallen en dat het logo eruit valt. Ik heb nog geen idee hoe ik dat allemaal zou moeten doen maar dat ga ik de komende maand uitzoeken. 
+- Ik ga beginnen met het "pakketje" te nmaken en vorm te geven.
+- Vervolgens ga ik dit animeren.
+- Letters teovoegen
+- 1 voor 1 animeren
 
 
   ### Je storyboard:
@@ -32,10 +36,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - animaties maken
+  - werken met keyframes
+  - breakpoints toevoegen
+  - leren om vormen te maken zonder het importeren van foto's
  
 </details>
 
@@ -52,13 +56,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  - Het animeren van het pakketje vond ik nog verassend makkelijk. 
+  - ik kon het font online niet vinden dus ik heb zelf de letters moeten overtrekken op mijn iPad en deze vervolgens in een fontmaker moeten zetten. Dit was de eerste keer dat ik dit gedaan heb en vond het nog verrassend makkelijk. Ik ga dit zeker in de toekomst nog een keer gebruiken als ik een bepaald font niet kan vinden of verder wil customizen. Het kost wel best wat extra tijd maar dat was het zeker waard.
 
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+ - Ik ben vast gelopen met het centreren en responsive maken van de content. Hij werkt nu op iPhone en volledig desktop voormaat maar daar tussenin doet hij raar. Ik hoop dit nog te kunnen fixen voor de uiteindelijke oplevering.
+ - Ook vond ik het lastig om de letters draaiend uit de doos te laten vallen. Het is uiteindelijk redelijk goed geluit maar heb heel veel dingen moeten proberen om te zo te laten werken. Omdat de doos draait moeten de letters in eerste instantie gedraaid in de doos staan. Hierdoor werkt de logica van de orientatie van de letters niet meer.
 
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 </details>
