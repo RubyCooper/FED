@@ -53,21 +53,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/LettersRollenUitDoos" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/LettersRollenUitDoosMobiel" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/EindScherm" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   - Het animeren van het pakketje vond ik nog verassend makkelijk. 
   - ik kon het font online niet vinden dus ik heb zelf de letters moeten overtrekken op mijn iPad en deze vervolgens in een fontmaker moeten zetten. Dit was de eerste keer dat ik dit gedaan heb en vond het nog verrassend makkelijk. Ik ga dit zeker in de toekomst nog een keer gebruiken als ik een bepaald font niet kan vinden of verder wil customizen. Het kost wel best wat extra tijd maar dat was het zeker waard.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+ 
 
 
   ### Dit was lastig/Is niet gelukt:
  - Ik ben vast gelopen met het centreren en responsive maken van de content. Hij werkt nu op iPhone en volledig desktop voormaat maar daar tussenin doet hij raar. Ik hoop dit nog te kunnen fixen voor de uiteindelijke oplevering.
  - Ook vond ik het lastig om de letters draaiend uit de doos te laten vallen. Het is uiteindelijk redelijk goed geluit maar heb heel veel dingen moeten proberen om te zo te laten werken. Omdat de doos draait moeten de letters in eerste instantie gedraaid in de doos staan. Hierdoor werkt de logica van de orientatie van de letters niet meer.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+ 
 </details>
 
 
