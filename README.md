@@ -23,6 +23,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Opdracht 1 plan
 
 <details open>
+  
   Voor deze opdracht heb ik ervoor gekozen om het Amazon logo te animeren. Het lijkt mij leuk om een pakketje het scherm in te laten "sliden", vervolgens laten afremmen, omvallen en dat het logo eruit valt. Ik heb nog geen idee hoe ik dat allemaal zou moeten doen maar dat ga ik de komende maand uitzoeken. 
 - Ik ga beginnen met het "pakketje" te nmaken en vorm te geven.
 - Vervolgens ga ik dit animeren.
@@ -78,6 +79,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na schetsen idee (voor week 5)</summary>
+  
   Voor de tweede opdracht heb ik voor de volgende case geozen: "In een grote verzameling films wil ik een aantal leuke films kunnen bewaren om ze later te bekijken." Zelf hou ik heel erg van films dus het leek mij leuk om hier iets leuks van te maken. 
   Mijn plan is om een carrousel aan films te hebben hierbij kan de films liken, deze worden vervolgens bewaard en kan je laten terug vinden. Ook kan je van alle films informatie krijgen over de film. Zoals regisseur, samenvatting, jaar van uitkomst, duur van de film, acteurs, imbd rating enz. Zie hieronder een schets van mijn design:
 
@@ -179,12 +181,12 @@ After:
   Foto 5: Hier zie je de darkmode van de website. Ik heb hiervoor de achtergrond fotos een lagere opacity gegeven waardoor de donkerder lijken. Ook heb ik het plaatje van de lichten op het planfond op display:none gezet. Dit leek mij een leuke toevoeging om te laten lijken alsof de lichten echt uitgaan in de bioscoop. Als laatste heb ik nog een exit bordje toegevoegd die 'oplicht' als de lampen uit gaan. Hierdoor krijgt de gebruiker nog meer het gevoel dat ze in een bioscoop zaal zitten.
   Foto 6: Dit is het scherm op desktop formaat. Het was moeilijk om horizontale filmposters te vinden dus heb ik ervoor gekozen om de informatie ernaast te zetten. Zo is het scherm wat beter gevuld en kan de gebruiker snel alle informatie lezen.
   
-  <img src="readme-images/PosterMobile.png" height="300px" alt="Poster mobiel scherm">
-  <img src="readme-images/InfoMobile.png" height="300px" alt="Info mobiel scherm">
-  <img src="readme-images/TrailerMobile.png" height="300px" alt="Trailer mobiel scherm">
-  <img src="readme-images/LikedMovies.png" height="300px" alt="Liked movies">
-  <img src="readme-images/Darkmode.png" height="300px" alt="Darkmode">
-  <img src="readme-images/PosterAndInfoWideScreen.png" height="300px" alt="Poster & info widescreen">
+  <img src="readme-images/PosterMobile.png" height="320px" alt="Poster mobiel scherm">
+  <img src="readme-images/InfoMobile.png" height="320px" alt="Info mobiel scherm">
+  <img src="readme-images/TrailerMobile.png" height="320px" alt="Trailer mobiel scherm">
+  <img src="readme-images/LikedMovies.png" height="320px" alt="Liked movies">
+  <img src="readme-images/Darkmode.png" height="320px" alt="Darkmode">
+  <img src="readme-images/PosterAndInfoWideScreen.png" height="320px" alt="Poster & info widescreen">
   
 
 
