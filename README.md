@@ -53,9 +53,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/LettersRollenUitDoos.png" width="300px" alt="uitomst opdracht 1">
-  <img src="readme-images/LettersRollenUitDoosMobiel.png" width="150px" alt="uitomst opdracht 1">
-  <img src="readme-images/EindScherm.png" width="300px" alt="uitomst opdracht 1">
+  <img src="readme-images/LettersRollenUitDoos.png" height="300px" alt="uitomst opdracht 1">
+  <img src="readme-images/LettersRollenUitDoosMobiel.png" height="300px" alt="uitomst opdracht 1">
+  <img src="readme-images/EindScherm.png" height="300px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -83,11 +83,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je ontwerp:
-  <img src="readme-images/Storybord1.png" width="200px" alt="ontwerp opdracht 2">
-  <img src="readme-images/Storybord2.png" width="200px" alt="ontwerp opdracht 2">
-  <img src="readme-images/Storybord3.png" width="200px" alt="ontwerp opdracht 2">
-  <img src="readme-images/Storybord4.png" width="200px" alt="ontwerp opdracht 2">
-  <img src="readme-images/Storybord5.png" width="200px" alt="ontwerp opdracht 2">
+  <img src="readme-images/Storybord1.png" width="180px" alt="ontwerp opdracht 2">
+  <img src="readme-images/Storybord2.png" width="180px" alt="ontwerp opdracht 2">
+  <img src="readme-images/Storybord3.png" width="180px" alt="ontwerp opdracht 2">
+  <img src="readme-images/Storybord4.png" width="180px" alt="ontwerp opdracht 2">
+  <img src="readme-images/Storybord5.png" width="180px" alt="ontwerp opdracht 2">
   
   ### Later toegevoegd:
 Toen ik begon aan het maken van de website heb ik mijn design volledig veranderd. Ik wilde het laten lijken alsof je zelf in de bioscoop zit en de films daar op het scherm voorbij ziet komen. Hierdoor zie je geen caroussel meer maar maar 1 film tegelijk. Ik wil vervolgens knoppen toevoegen om door de films heen te kunnen navigeren. (Dit wil ik gaan doen door alle films op elkaar te zetten en alleen die aan de beurt is op zichtbaar te zetten.) Bij die knoppen ga ik een toggle toevoegen waarbij je kan wisselen van alle films naar je gelikte films. De informatie en trailer wil ik met andere knoppen navigeren. Deze 'schermen' ga ik waarschijnlijk allemaal naast elkaar zetten en door de ul (het window) voorbij laten sliden.
@@ -115,9 +115,11 @@ Ik heb deze test uitgevoerd met Ruud Jansen (medestudent CMD). Om de website te 
   Bij het voor het eerst kijken naar de pagina zonder dingen uit te proberen was het nog onduidelijk waar de toggle voor bedoelt was. Aangezien er niets bijgezet was. Om dit te verbeteren heb ik twee iconen toegevoegd. Als de toggle aan de linker kant (default) staat zie je de gehele lijst aan films. Hier heb ik dus een lijst icoon voor gebruikt. Wanneer er op de toggle geklikt wordt zie je alleen je gelikte films. Hiervoor heb ik een hartje toegevoegd. Aangezien dat ook het icoontje is voor de knop om films in die lijst te zetten leek mij dit het duidelijkste icoon.
 
 Before:
+
 <img src="readme-images/ToggleBefore.png" width="300px" alt="Toggle before">
 
 After:
+
 <img src="readme-images/ToggleAfter.png" width="300px" alt="Toggle after">
 
 
@@ -127,16 +129,37 @@ After:
   #### oplossing:
   Hier had ik daarvoor nog geen tijd voor gehad en was het daardoor een beetje vergeten. Je kon op dat moment wel al heen en weer gaan tussen de films maar als je bij de laatste aangekomen was kon je niet doorklikken om weer bij de eerste aan het komen. Dit beleek uiteindelijk heel makkelijk om aan te passen door een extra if in de javascript functie toe te voegen die kijkt naar wat het nummertje van de huidige film is (0 - 9). Bij de 'Next button' heb ik toegevoegd dat als de huidige film nummer 9 is en de gebruiker klikt op die knop dat hij het nummer naar 0 veranderd. Voor de 'Back button' werkt het exact het tegenovergestelde. Wanneer het film nummer 0 is en er wordt op de knop geklikt gaat hij naar 9. Zo simpel was het.
   
-    Next button toevoeging code:
+  Next button toevoeging code:
+  
 <img src="readme-images/AanpassingCodeLoopNext" width="300px" alt="Next button">
   
   Back button toevoeging code:
+  
 <img src="readme-images/AanpassingCodeLoopBack" width="300px" alt="Back button">
 
 
-  ### Bevinding 3:
-  ...
-</details>
+   ### Bevinding 3:
+  Knoppen voor de posters en trailer onduidelijk.
+
+  #### oplossing:
+  
+  
+  
+  
+  
+   ### Bevinding 4:
+  Kunnen wisselen tussen alleen info/trailers van de films.
+
+  #### oplossing:
+  
+  
+  
+  
+  
+   ### Bevinding 5:
+  Filmlijst loopt niet.
+
+  #### oplossing:
 
 
 
