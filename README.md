@@ -131,11 +131,11 @@ After:
   
   Next button toevoeging code:
   
-<img src="readme-images/AanpassingCodeLoopNext" width="300px" alt="Next button">
+<img src="readme-images/AanpassingCodeLoop" width="300px" alt="Next button">
   
   Back button toevoeging code:
   
-<img src="readme-images/AanpassingCodeLoopBack" width="300px" alt="Back button">
+<img src="readme-images/AanpassingCodeLoop2" width="300px" alt="Back button">
 
 
    ### Bevinding 3:
