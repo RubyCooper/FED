@@ -78,10 +78,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na schetsen idee (voor week 5)</summary>
+  Voor de tweede opdracht heb ik voor de volgende case geozen: "In een grote verzameling films wil ik een aantal leuke films kunnen bewaren om ze later te bekijken." Zelf hou ik heel erg van films dus het leek mij leuk om hier iets leuks van te maken.
+
 
 
   ### Je ontwerp:
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="ontwerp opdracht 2">
+  <img src="readme-images/Storybord1.png" width="200px" alt="ontwerp opdracht 2">
+  <img src="readme-images/Storybord2.png" width="200px" alt="ontwerp opdracht 2">
+  <img src="readme-images/Storybord3.png" width="200px" alt="ontwerp opdracht 2">
+  <img src="readme-images/Storybord4.png" width="200px" alt="ontwerp opdracht 2">
+  <img src="readme-images/Storybord5.png" width="200px" alt="ontwerp opdracht 2">
+  
 
 
   ### Je ambitie: 
